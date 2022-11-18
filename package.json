@@ -1,0 +1,16 @@
+{
+  "name": "learn-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./styles.css -o css/dev.css -w",
+    "build": "tailwindcss -i ./styles.css -o css/build.css --minify -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.3"
+  }
+}
